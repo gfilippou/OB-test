@@ -1,0 +1,39 @@
+.footer {
+  padding: 0.4rem;
+  z-index: 2;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 3.5rem;
+  padding-bottom: 2rem;
+}
+
+.section_a {
+  padding: 0.5rem;
+  justify-content: right;
+  flex-basis: 50%;
+}
+
+.section_b {
+  padding: 0.5rem;
+  justify-content: left;
+  flex-basis: 50%;
+}
+
+.button {
+  border: none;
+  font-size: 1rem;
+  color: white;
+  border-radius: 0.25rem;
+  padding: 0.5rem 1rem;
+  width: 10rem;
+  cursor: pointer;
+}
+
+.toggle {
+  background-color: #5741d9;
+}
+
+.kill {
+  background-color: #b91d1d;
+}

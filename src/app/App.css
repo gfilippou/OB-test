@@ -1,0 +1,17 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-size: medium;
+  height: 100vh;
+}
+
+.flex_row {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex_column {
+  display: flex;
+  flex-direction: column;
+}

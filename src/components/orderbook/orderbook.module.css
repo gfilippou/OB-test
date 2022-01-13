@@ -1,0 +1,121 @@
+.orderbook {
+  padding: 0.5rem 0;
+  font-size: 1rem;
+  height: calc(100vh - 12rem);
+  overflow-y: auto;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 1rem;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #cfcfcf;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #5c616f;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #4e525e;
+}
+
+.sides {
+  flex-basis: 50%;
+}
+
+.total {
+  display: flex;
+  justify-content: flex-end;
+}
+.size {
+  display: flex;
+  justify-content: flex-end;
+}
+.price {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.sides > div {
+  padding-right: 3rem;
+  text-align: end;
+}
+
+.header_buy {
+  color: #5c616f;
+  border-bottom: 1px solid #333742;
+  padding: 0.5rem 0;
+}
+
+.header_sell {
+  color: #5c616f;
+  border-bottom: 1px solid #333742;
+  padding: 0.5rem 0;
+}
+
+.header_buy > div {
+  flex-basis: 33.33%;
+}
+.header_sell > div {
+  flex-basis: 33.33%;
+}
+
+.buy_order > div {
+  flex-basis: 33.33%;
+}
+
+.buy_order .price {
+  color: #11a570;
+}
+
+.sell_order > div {
+  flex-basis: 33.33%;
+}
+
+.sell_order .price {
+  color: #dc383a;
+}
+
+@media only screen and (max-width: 768px) {
+  .orderbook {
+    flex-direction: column-reverse;
+    font-size: 0.9rem;
+  }
+  .buy_order {
+    flex-direction: row-reverse;
+  }
+
+  .header_buy {
+    display: none;
+  }
+
+  .spread {
+    display: none;
+  }
+}
+
+/* .OrderBook__Buy,
+  .OrderBook__Sell {
+    width: 100%;
+    justify-content: start;
+  }
+
+  .OrderBook__Buy {
+    .OrderBook__Row:first-child {
+      display: none;
+    }
+  }
+  .OrderBook__Sell {
+    flex-direction: column-reverse;
+    .OrderBook__Row:first-child {
+      order: 1;
+    }
+  } */

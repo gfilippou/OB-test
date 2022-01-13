@@ -1,0 +1,15 @@
+.spread {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 2rem;
+  color: #5c616f;
+}
+
+@media only screen and (max-width: 768px) {
+  .spread {
+    order: 1;
+  }
+}
