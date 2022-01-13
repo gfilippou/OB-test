@@ -2,7 +2,7 @@
 Thank you for reviewing. Orderbook created by George Filippou, according to test specifications (or spec).
 
 # Notes & Issues
-View a live version of this app at Vercel
+View a live version of this app at [Vercel](https://ob-test.vercel.app/)
 
 # Notes & Issues
 ### Missing specs
