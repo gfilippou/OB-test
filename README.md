@@ -13,7 +13,7 @@ Orderbooks typically have certain characteristics that were not included in the 
 
 ### Improvements
 Due to time availability constraints, there is room for improvement in certain areas, namely:
-- Refactoring of certain parts of the code to make it more readable / elegant, especially in the file "orderbookDataFormatter.ts".
+- Refactoring of certain parts of the code to make it more readable / elegant, especially the code regarding "Toggle Feed" button operation, and the code in the file "orderbookDataFormatter.ts".
 - More extensive testing, specifically to: 
   - Test for proper orders grouping
   - Test for proper "Toggle Feed" button operation
